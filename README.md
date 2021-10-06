@@ -1,16 +1,8 @@
-# Teste Para Supera Inovações em Tecnologia
+# Desafio Loja de Games em React.
 
 É um app modelo de uma loja de games web.
 
-
-
-
-O App foi criado com React.
-Foi utilizado React Hooks, Context Api, e gerenciamento de estados globais.
-
-
-
-
+Foram utilizados React Hooks, Context Api, e gerenciamento de estados globais.
 
 ___________________________________________________________________________________________________________________
 
