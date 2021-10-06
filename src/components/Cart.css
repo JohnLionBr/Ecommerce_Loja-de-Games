@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Century Gotic';
+    src: url(../fonts/Century\ Gothic.ttf);
+  }
+
+
+.cart{
+    width: 0vw;
+    overflow: hidden;
+    transition: ease all 1s;
+    font-family: 'Century Gotic';
+    background-color:#011627;
+    border-left: 1px solid #212b2b;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart.opened{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    transition: ease all 1s;
+}
+
+.closeCart{
+    color: #f5e027c5;
+    font-weight: bolder;
+    text-align: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cart_products {
+    margin: 10px;
+}
+
+.products_controller{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.item_price{
+    display: none;
+}
+
+.item_delete{
+    cursor: pointer;
+}
+
+.cart_price{
+    margin: 10px;
+}
+
+.cart_subtotal{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.cart_frete{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.cart_total{
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.cart_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.buy{
+    width: 100%;
+    height: 40px;
+    background-color: #6a970e;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: width 2s linear;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.buy:active{
+    background: linear-gradient(to right, #7db313, #a6ee18 );
+}
+
+.cancel{
+    margin-top: 15px;
+    color: #f5e027ad;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width:500px) {
+
+    .cart{
+        width: 0vw;
+        height: 0vh;
+    }
+    .cart.opened{
+        height: 100vh;
+        width: 90%;
+        
+    }
+}
+
+
