@@ -1,12 +1,8 @@
 # Teste Para Supera Inovações em Tecnologia
 
-É um aplicativo de e-commerce web.
+É um app modelo de uma loja de games web.
 
-O usúario pode acrescentar e excluir produtos do carrinho, organizar por ondem alfabética, por avaliações e por preço.
 
-O app consome uma API interna, e usa gerenciamento de estados para fazer as funcionalidades.
-
-A estrutura é baseada em cards de que contém os games e as informações, ela foi criada com CSS Grid.
 
 
 O App foi criado com React.
